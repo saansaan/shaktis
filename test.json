@@ -1,11 +1,33 @@
 {
-  "$id": "c_price",
-  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
-  "displayName": "Price",
-  "typeId": "type.decimal",
-  "type": {
-    "decimalType": {}
+  "$id": "ssss",
+  "$schema": "https://schema.yext.com/config/streams/stream-config/v1",
+  "includeSubAccounts": boolean,
+  "source": string,
+  "destination": string,
+  "fields": [
+    string
+  ],
+  "filter": {},
+  "localization": {
+    "locales": [
+      string
+    ],
+    "primary": false
   },
-  "localization": "PRIMARY_ONLY",
-  "group": "NONE"
+  "transform": {
+    "expandOptionFields": [
+      string
+    ],
+    "replaceOptionValuesWithDisplayNames": [
+      string
+    ],
+    "jsonpatch": [
+      {
+        "op": string,
+        "path": string,
+        "from": string,
+        "value": {}
+      }
+    ]
+  }
 }
