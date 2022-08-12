@@ -1,33 +1,11 @@
 {
   "$id": "ssss",
-  "$schema": "https://schema.yext.com/config/streams/stream-config/v1",
-  "includeSubAccounts": boolean,
-  "source": string,
-  "destination": string,
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "ssss",
+  "entityType": "location",
   "fields": [
-    string
+    "c_enhancedScoreOptOut",
+    "c_missingFacebookRatingReason"
   ],
-  "filter": {},
-  "localization": {
-    "locales": [
-      string
-    ],
-    "primary": false
-  },
-  "transform": {
-    "expandOptionFields": [
-      string
-    ],
-    "replaceOptionValuesWithDisplayNames": [
-      string
-    ],
-    "jsonpatch": [
-      {
-        "op": string,
-        "path": string,
-        "from": string,
-        "value": {}
-      }
-    ]
-  }
+  "required": []
 }
