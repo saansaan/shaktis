@@ -1,0 +1,11 @@
+{
+  "$id": "c_price",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "Price",
+  "typeId": "type.decimal",
+  "type": {
+    "decimalType": {}
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}
