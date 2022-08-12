@@ -1,11 +1,374 @@
 {
   "$id": "ssss",
-  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "ssss",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
   "entityType": "location",
-  "fields": [
-    "c_enhancedScoreOptOut",
-    "c_missingFacebookRatingReason"
-  ],
-  "required": []
+  "displayName": "ssss",
+  "presentationEntries": [
+    {
+      "displayName": "Profile Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Business Profile",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "address",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "addressHidden"
+        },
+        {
+          "id": "serviceAreaPlaces"
+        },
+        {
+          "id": "categories",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "mainPhone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "websiteUrl"
+        },
+        {
+          "id": "menuUrl"
+        },
+        {
+          "id": "orderUrl"
+        },
+        {
+          "id": "reservationUrl"
+        },
+        {
+          "id": "emails"
+        },
+        {
+          "id": "description"
+        },
+        {
+          "id": "hours"
+        },
+        {
+          "id": "additionalHoursText"
+        },
+        {
+          "id": "featuredMessage",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "yearEstablished"
+        },
+        {
+          "id": "paymentOptions"
+        },
+        {
+          "id": "languages"
+        },
+        {
+          "id": "keywords"
+        },
+        {
+          "id": "logo"
+        }
+      ]
+    },
+    {
+      "displayName": "Extended Business Profile",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "products"
+        },
+        {
+          "id": "services"
+        },
+        {
+          "id": "specialities"
+        },
+        {
+          "id": "associations"
+        },
+        {
+          "id": "brands"
+        },
+        {
+          "id": "productLists"
+        },
+        {
+          "id": "menus"
+        },
+        {
+          "id": "calendars"
+        },
+        {
+          "id": "bios"
+        },
+        {
+          "id": "localPhone"
+        },
+        {
+          "id": "alternatePhone"
+        },
+        {
+          "id": "tollFreePhone"
+        },
+        {
+          "id": "mobilePhone"
+        },
+        {
+          "id": "fax"
+        },
+        {
+          "id": "ttyPhone"
+        },
+        {
+          "id": "twitterHandle"
+        },
+        {
+          "id": "instagramHandle"
+        },
+        {
+          "id": "pickupAndDeliveryServices"
+        },
+        {
+          "id": "photoGallery"
+        }
+      ]
+    },
+    {
+      "displayName": "Media",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Social Media",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Enhanced Content Lists",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Frequently Asked Questions",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Landing Pages",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Additional Profile Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Google Specific Content",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "googleCoverPhoto"
+        },
+        {
+          "id": "googleProfilePhoto"
+        },
+        {
+          "id": "googleAttributes"
+        }
+      ]
+    },
+    {
+      "displayName": "Google My Business Attributes",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Facebook Specific Content",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookCoverPhoto"
+        },
+        {
+          "id": "facebookProfilePhoto"
+        },
+        {
+          "id": "facebookCallToAction"
+        },
+        {
+          "id": "facebookOverrideCity"
+        },
+        {
+          "id": "facebookName"
+        },
+        {
+          "id": "facebookDescriptor"
+        },
+        {
+          "id": "facebookVanityUrl"
+        },
+        {
+          "id": "facebookPageUrl"
+        }
+      ]
+    },
+    {
+      "displayName": "Advanced Business Profile",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "iosAppUrl"
+        },
+        {
+          "id": "androidAppUrl"
+        },
+        {
+          "id": "uberLink"
+        },
+        {
+          "id": "uberTripBranding"
+        },
+        {
+          "id": "videos"
+        },
+        {
+          "id": "landingPageUrl"
+        },
+        {
+          "id": "frequentlyAskedQuestions"
+        }
+      ]
+    },
+    {
+      "displayName": "Uber",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Settings",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Knowledge Assistant",
+      "entryType": "SECTION"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Search Tracker",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "rankTrackingEnabled"
+        },
+        {
+          "id": "rankTrackingFrequency"
+        },
+        {
+          "id": "rankTrackingKeywords"
+        },
+        {
+          "id": "customKeywords"
+        },
+        {
+          "id": "rankTrackingQueryTemplates"
+        },
+        {
+          "id": "alternateNames"
+        },
+        {
+          "id": "alternateWebsites"
+        },
+        {
+          "id": "rankTrackingSites"
+        }
+      ]
+    },
+    {
+      "displayName": "Competitors",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "rankTrackingCompetitors"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Administrative",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Business Details",
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "closed"
+        },
+        {
+          "id": "folder"
+        },
+        {
+          "id": "facebookLinkedAccount"
+        },
+        {
+          "id": "labels"
+        },
+        {
+          "id": "foursquareLinkedAccount"
+        },
+        {
+          "id": "gmbLinkedAccount"
+        },
+        {
+          "id": "googleAccountId"
+        },
+        {
+          "id": "isoRegionCode"
+        },
+        {
+          "id": "deliverListingsWithoutGeocode"
+        },
+        {
+          "id": "timezone"
+        },
+        {
+          "id": "firstPartyReviewPage"
+        },
+        {
+          "id": "reviewGenerationUrl"
+        },
+        {
+          "id": "defaultReviewInviteTemplate"
+        },
+        {
+          "id": "c_enhancedScoreOptOut"
+        },
+        {
+          "id": "geomodifier"
+        },
+        {
+          "id": "impressum"
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "googleMyBusinessLabels"
+        },
+        {
+          "id": "googlePlaceId"
+        }
+      ]
+    }
+  ]
 }
