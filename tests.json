@@ -1,8 +1,8 @@
 {
-  "$id": "ssss",
+  "$id": "ce_location",
   "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
   "entityType": "location",
-  "displayName": "ssss",
+  "displayName": "Location",
   "presentationEntries": [
     {
       "displayName": "Profile Content",
